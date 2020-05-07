@@ -1,0 +1,9 @@
+@media screen and (max-width: 600px){
+    #box_phone{
+        display: block;
+        
+    }
+    #box_1, #box_1_heading, #box_2, #box_2_heading{
+        display: none;
+    }
+}

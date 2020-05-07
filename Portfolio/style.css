@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#logo{
+    position: absolute;
+    top: 40px;
+    left: 60px;
+}
+#logo:hover{
+    color: red;
+}
+#menu{
+    position: absolute;
+    top: 40px;
+    right: 60px;
+    list-style-type: none;
+}
+
+#menu li{
+    display: inline;
+    padding: 10px 10px;
+    margin: 0 5px;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    color: rebeccapurple;
+    font-weight: 500;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#menu li:hover{
+    background-color: rebeccapurple;
+    color: white;
+    font-weight: bold; 
+}
+
+#section_1{
+    position: relative;
+    width: 100%;
+    z-index: -1;
+}
+#box_phone{
+    display: none;
+    background-color: rebeccapurple;
+    position: absolute;
+    text-align: center;
+    width: 80%;
+    height: 60%;
+    left: 10%;
+    top: 20%;
+    padding: 30% 0;
+    font-size: 10vw;
+    font-family: 'Lato', sans-serif;
+    z-index: -1;
+    color: white;
+}
+#box_1{
+    position: absolute;
+    top: 0;
+    right: 50%;
+    width: 35%;
+    height: 100%;
+    background-color: rebeccapurple;
+}
+
+
+
+#box_2{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    width: 40%;
+    height: 70%;
+    border: 10px solid rebeccapurple;
+    border-left: none;
+}
+#box_1_heading, #box_2_heading{
+    position: absolute;
+    list-style-type: none;
+    bottom: 50%;
+    font-size: 5vw;
+    transform: translateY(50%);
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1.5rem;
+    font-weight: bolder;
+    
+}
+#box_1_heading{
+    right: 50%;
+    padding: 10px 5px 10px 10px;
+    color: white;
+}
+
+#box_2_heading{
+    
+    left: 50%;
+    padding: 10px 10px 10px 5px;
+    color: rebeccapurple;
+}
+
+#section_2{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(#fcb308, #a18238);
+}
+
+#what_we_do_box{
+    position: absolute;
+    top: 0;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 0;
+}
+#heading_section_2{
+    position: relative;
+    display: block; 
+    font-weight: 100;;
+    font-family: 'Lato', sans-serif;
+    height: auto;
+    font-size: 2vw;
+    text-align: center;
+    transform: translateY(-30px);
+    cursor: default;
+}
+
+#section_2_list{
+    position: relative;
+    list-style: none;
+    cursor: default;
+}
+#section_2_list li{
+   
+    font-size: 6.5vw;
+    text-align: center;
+    font-family: 'Bowlby One SC', cursive;
+    color: rgba(0, 0, 0, 0.7);
+}
+#section_2_list li:hover{
+    color: rgba(0, 0, 0, 1);
+}
+#capabilities{
+    position: relative;
+    display: block;
+    font-size: 1.7vw;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden; 
+    transition: color 0.2s;
+    
+}
+#capabilities:hover{
+   background-image: linear-gradient(#fcb308, #a18238);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+#hover_box_capabilities{
+    z-index: -1;
+    position: absolute;
+    display: block;
+    content: "our";
+    top: 90%;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: top 0.2s;
+}
+#section_3{
+    position: relative;
+    width: 100%;
+}
+
+
+#contact_us_box{
+    position: absolute;
+    display: block;
+    width: 50%;
+    left: 0%;
+    background-color: royalblue;
+    height: 100%;
+    text-align: center;
+    line-height: 50%;
+}
